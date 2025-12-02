@@ -177,51 +177,51 @@ const Skills = () => {
         <div className="absolute bottom-20 left-20 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute top-1/2 left-1/3 w-72 h-72 bg-pink-500/5 rounded-full blur-3xl animate-pulse delay-500"></div>
 
-        {/* Floating Lab Equipment Icons */}
-        <div className="absolute top-[10%] left-[5%] text-cyan-500/20 animate-float">
-          <FaFlask className="text-6xl" />
+        {/* Floating Lab Equipment Icons - hidden on mobile */}
+        <div className="floating-icon absolute top-[10%] left-[5%] text-cyan-500/20 animate-float">
+          <FaFlask className="text-4xl md:text-6xl" />
         </div>
-        <div className="absolute top-[15%] right-[10%] text-purple-500/20 animate-float delay-300">
-          <FaMicroscope className="text-7xl" />
+        <div className="floating-icon absolute top-[15%] right-[10%] text-purple-500/20 animate-float delay-300">
+          <FaMicroscope className="text-5xl md:text-7xl" />
         </div>
-        <div className="absolute top-[40%] left-[3%] text-pink-500/15 animate-float delay-700">
-          <FaVial className="text-5xl" />
+        <div className="floating-icon absolute top-[40%] left-[3%] text-pink-500/15 animate-float delay-700">
+          <FaVial className="text-4xl md:text-5xl" />
         </div>
-        <div className="absolute bottom-[30%] right-[5%] text-cyan-500/15 animate-float delay-200">
-          <FaAtom className="text-8xl animate-spin-slow" />
+        <div className="floating-icon absolute bottom-[30%] right-[5%] text-cyan-500/15 animate-float delay-200">
+          <FaAtom className="text-6xl md:text-8xl animate-spin-slow" />
         </div>
-        <div className="absolute bottom-[15%] left-[15%] text-green-500/15 animate-float delay-500">
-          <FaDna className="text-6xl" />
+        <div className="floating-icon absolute bottom-[15%] left-[15%] text-green-500/15 animate-float delay-500">
+          <FaDna className="text-5xl md:text-6xl" />
         </div>
-        <div className="absolute top-[60%] right-[12%] text-purple-500/10 animate-float delay-100">
-          <FaSyringe className="text-5xl rotate-45" />
+        <div className="floating-icon absolute top-[60%] right-[12%] text-purple-500/10 animate-float delay-100">
+          <FaSyringe className="text-4xl md:text-5xl rotate-45" />
         </div>
-        <div className="absolute top-[25%] left-[20%] text-orange-500/15 animate-float delay-600">
-          <FaThermometerHalf className="text-4xl" />
+        <div className="floating-icon absolute top-[25%] left-[20%] text-orange-500/15 animate-float delay-600">
+          <FaThermometerHalf className="text-3xl md:text-4xl" />
         </div>
-        <div className="absolute bottom-[40%] left-[8%] text-yellow-500/10 animate-float delay-400">
-          <FaFire className="text-5xl" />
+        <div className="floating-icon absolute bottom-[40%] left-[8%] text-yellow-500/10 animate-float delay-400">
+          <FaFire className="text-4xl md:text-5xl" />
         </div>
-        <div className="absolute top-[70%] left-[25%] text-cyan-500/10 animate-float delay-800">
-          <FaEyeDropper className="text-4xl" />
+        <div className="floating-icon absolute top-[70%] left-[25%] text-cyan-500/10 animate-float delay-800">
+          <FaEyeDropper className="text-3xl md:text-4xl" />
         </div>
-        <div className="absolute top-[5%] left-[40%] text-purple-500/15 animate-float delay-200">
-          <GiMolecule className="text-9xl" />
+        <div className="floating-icon absolute top-[5%] left-[40%] text-purple-500/15 animate-float delay-200">
+          <GiMolecule className="text-7xl md:text-9xl" />
         </div>
-        <div className="absolute bottom-[10%] right-[20%] text-pink-500/10 animate-float delay-700">
-          <GiTestTubes className="text-7xl" />
+        <div className="floating-icon absolute bottom-[10%] right-[20%] text-pink-500/10 animate-float delay-700">
+          <GiTestTubes className="text-5xl md:text-7xl" />
         </div>
-        <div className="absolute top-[50%] right-[3%] text-green-500/10 animate-float delay-300">
-          <GiChemicalDrop className="text-6xl" />
+        <div className="floating-icon absolute top-[50%] right-[3%] text-green-500/10 animate-float delay-300">
+          <GiChemicalDrop className="text-4xl md:text-6xl" />
         </div>
-        <div className="absolute bottom-[5%] left-[45%] text-cyan-500/15 animate-float delay-500">
-          <GiDna1 className="text-8xl" />
+        <div className="floating-icon absolute bottom-[5%] left-[45%] text-cyan-500/15 animate-float delay-500">
+          <GiDna1 className="text-6xl md:text-8xl" />
         </div>
-        <div className="absolute top-[35%] right-[25%] text-purple-500/10 animate-float delay-100">
-          <GiAtom className="text-7xl animate-spin-slow" />
+        <div className="floating-icon absolute top-[35%] right-[25%] text-purple-500/10 animate-float delay-100">
+          <GiAtom className="text-5xl md:text-7xl animate-spin-slow" />
         </div>
-        <div className="absolute bottom-[25%] right-[35%] text-orange-500/10 animate-float delay-600">
-          <GiChemicalTank className="text-5xl" />
+        <div className="floating-icon absolute bottom-[25%] right-[35%] text-orange-500/10 animate-float delay-600">
+          <GiChemicalTank className="text-4xl md:text-5xl" />
         </div>
 
         {/* Molecular Bond Lines */}
@@ -318,22 +318,22 @@ const Skills = () => {
         </div>
 
         {/* Filter Bar */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-12 px-2">
           <button
             onClick={() => setFilter("all")}
-            className={`px-6 py-2 rounded-full border transition-all duration-300 ${
+            className={`px-4 sm:px-6 py-2 text-sm sm:text-base rounded-full border transition-all duration-300 ${
               filter === "all"
                 ? "bg-white/10 border-white/30 text-white shadow-[0_0_15px_rgba(255,255,255,0.2)]"
                 : "border-white/5 text-gray-500 hover:border-white/20 hover:text-gray-300"
             }`}
           >
-            All Elements
+            All
           </button>
           {categories.map((cat) => (
             <button
               key={cat.id}
               onClick={() => setFilter(cat.id)}
-              className="px-6 py-2 rounded-full border flex items-center gap-2 transition-all duration-300"
+              className="px-3 sm:px-6 py-2 text-sm sm:text-base rounded-full border flex items-center gap-1 sm:gap-2 transition-all duration-300"
               style={{
                 borderColor:
                   filter === cat.id ? cat.hex : "rgba(255,255,255,0.05)",

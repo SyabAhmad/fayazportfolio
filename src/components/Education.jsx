@@ -47,29 +47,29 @@ const Education = () => {
         <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-[#a855f7]/5 rounded-full blur-3xl" />
 
         {/* Floating Education/Lab Icons */}
-        <div className="absolute top-[8%] left-[5%] text-green-500/15 animate-float">
-          <FaGraduationCap className="text-8xl" />
+        <div className="floating-icon absolute top-[8%] left-[5%] text-green-500/15 animate-float">
+          <FaGraduationCap className="text-6xl md:text-8xl" />
         </div>
-        <div className="absolute top-[15%] right-[10%] text-cyan-500/15 animate-float delay-300">
-          <FaAtom className="text-6xl animate-spin-slow" />
+        <div className="floating-icon absolute top-[15%] right-[10%] text-cyan-500/15 animate-float delay-300">
+          <FaAtom className="text-4xl md:text-6xl animate-spin-slow" />
         </div>
-        <div className="absolute bottom-[20%] left-[8%] text-purple-500/10 animate-float delay-500">
-          <FaFlask className="text-5xl" />
+        <div className="floating-icon absolute bottom-[20%] left-[8%] text-purple-500/10 animate-float delay-500">
+          <FaFlask className="text-4xl md:text-5xl" />
         </div>
-        <div className="absolute top-[45%] right-[5%] text-pink-500/10 animate-float delay-200">
-          <FaMicroscope className="text-6xl" />
+        <div className="floating-icon absolute top-[45%] right-[5%] text-pink-500/10 animate-float delay-200">
+          <FaMicroscope className="text-4xl md:text-6xl" />
         </div>
-        <div className="absolute bottom-[10%] right-[15%] text-green-500/10 animate-float delay-700">
-          <GiMolecule className="text-7xl" />
+        <div className="floating-icon absolute bottom-[10%] right-[15%] text-green-500/10 animate-float delay-700">
+          <GiMolecule className="text-5xl md:text-7xl" />
         </div>
-        <div className="absolute top-[65%] left-[3%] text-cyan-500/10 animate-float delay-400">
-          <GiDna1 className="text-6xl" />
+        <div className="floating-icon absolute top-[65%] left-[3%] text-cyan-500/10 animate-float delay-400">
+          <GiDna1 className="text-4xl md:text-6xl" />
         </div>
-        <div className="absolute bottom-[35%] right-[3%] text-orange-500/10 animate-float delay-600">
-          <FaBook className="text-5xl" />
+        <div className="floating-icon absolute bottom-[35%] right-[3%] text-orange-500/10 animate-float delay-600">
+          <FaBook className="text-4xl md:text-5xl" />
         </div>
-        <div className="absolute top-[30%] left-[12%] text-purple-500/10 animate-float delay-100">
-          <GiTestTubes className="text-5xl" />
+        <div className="floating-icon absolute top-[30%] left-[12%] text-purple-500/10 animate-float delay-100">
+          <GiTestTubes className="text-4xl md:text-5xl" />
         </div>
 
         {/* Molecular SVG */}

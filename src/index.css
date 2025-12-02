@@ -123,12 +123,34 @@
 
 /* Base styles */
 @layer base {
+  html,
   body {
     background-color: var(--bg-primary);
     color: var(--text-primary);
     font-family: var(--font-body);
     overflow-x: hidden;
+    max-width: 100vw;
     transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Hide floating decorative icons on mobile */
+  @media (max-width: 640px) {
+    .floating-icon {
+      display: none !important;
+    }
+
+    /* Scale down large decorative SVGs on mobile */
+    svg[class*="opacity-"] {
+      transform: scale(0.5);
+      transform-origin: center center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .floating-icon {
+      opacity: 0.05 !important;
+      transform: scale(0.6);
+    }
   }
 
   h1,

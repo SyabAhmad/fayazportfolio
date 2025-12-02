@@ -55,33 +55,33 @@ const Hero = () => {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#a855f7]/10 rounded-full blur-3xl animate-float delay-300" />
         <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-[#ec4899]/10 rounded-full blur-3xl animate-float delay-500" />
 
-        {/* Floating Lab Equipment */}
-        <div className="absolute top-[8%] left-[5%] text-cyan-500/15 animate-float">
-          <FaFlask className="text-7xl" />
+        {/* Floating Lab Equipment - hidden on small screens */}
+        <div className="floating-icon absolute top-[8%] left-[5%] text-cyan-500/15 animate-float">
+          <FaFlask className="text-5xl md:text-7xl" />
         </div>
-        <div className="absolute top-[15%] right-[8%] text-purple-500/20 animate-float delay-300">
-          <FaAtom className="text-9xl animate-spin-slow" />
+        <div className="floating-icon absolute top-[15%] right-[8%] text-purple-500/20 animate-float delay-300">
+          <FaAtom className="text-7xl md:text-9xl animate-spin-slow" />
         </div>
-        <div className="absolute top-[45%] left-[2%] text-pink-500/15 animate-float delay-500">
-          <FaVial className="text-5xl rotate-12" />
+        <div className="floating-icon absolute top-[45%] left-[2%] text-pink-500/15 animate-float delay-500">
+          <FaVial className="text-4xl md:text-5xl rotate-12" />
         </div>
-        <div className="absolute bottom-[20%] right-[5%] text-cyan-500/15 animate-float delay-200">
-          <FaMicroscope className="text-8xl" />
+        <div className="floating-icon absolute bottom-[20%] right-[5%] text-cyan-500/15 animate-float delay-200">
+          <FaMicroscope className="text-6xl md:text-8xl" />
         </div>
-        <div className="absolute bottom-[35%] left-[8%] text-green-500/15 animate-float delay-700">
-          <FaDna className="text-6xl" />
+        <div className="floating-icon absolute bottom-[35%] left-[8%] text-green-500/15 animate-float delay-700">
+          <FaDna className="text-5xl md:text-6xl" />
         </div>
-        <div className="absolute top-[30%] right-[15%] text-purple-500/10 animate-float delay-400">
-          <GiMolecule className="text-8xl" />
+        <div className="floating-icon absolute top-[30%] right-[15%] text-purple-500/10 animate-float delay-400">
+          <GiMolecule className="text-6xl md:text-8xl" />
         </div>
-        <div className="absolute bottom-[10%] left-[20%] text-cyan-500/10 animate-float delay-600">
-          <GiTestTubes className="text-6xl" />
+        <div className="floating-icon absolute bottom-[10%] left-[20%] text-cyan-500/10 animate-float delay-600">
+          <GiTestTubes className="text-5xl md:text-6xl" />
         </div>
-        <div className="absolute top-[60%] right-[10%] text-pink-500/10 animate-float delay-100">
-          <GiChemicalDrop className="text-5xl" />
+        <div className="floating-icon absolute top-[60%] right-[10%] text-pink-500/10 animate-float delay-100">
+          <GiChemicalDrop className="text-4xl md:text-5xl" />
         </div>
-        <div className="absolute bottom-[5%] right-[30%] text-orange-500/10 animate-float delay-800">
-          <FaSyringe className="text-5xl rotate-45" />
+        <div className="floating-icon absolute bottom-[5%] right-[30%] text-orange-500/10 animate-float delay-800">
+          <FaSyringe className="text-4xl md:text-5xl rotate-45" />
         </div>
 
         {/* Floating particles */}
