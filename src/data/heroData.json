@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "greeting": "Welcome to my world of",
+    "title": "Chemical Innovation",
+    "subtitle": "Chemistry Researcher & Quality Control Analyst",
+    "tagline": "Transforming Molecules into Innovations",
+    "description": [
+      "I'm a passionate chemistry researcher dedicated to advancing sustainable and computational chemistry. My journey involves crafting molecules that matter, from organic compounds to cutting-edge nanomaterials.",
+      "As a Quality Control Analyst in the pharmaceutical industry, I ensure precision and excellence in every formulation. My expertise spans both laboratory synthesis and computational modeling, allowing me to bridge the gap between theoretical chemistry and practical applications."
+    ],
+    "highlights": [
+      {
+        "icon": "atom",
+        "text": "Organic Synthesis",
+        "description": "Expert in complex organic synthesis and reaction mechanisms"
+      },
+      {
+        "icon": "microscope",
+        "text": "Nanomaterials",
+        "description": "Specialized in nanomaterial synthesis and characterization"
+      },
+      {
+        "icon": "laptop",
+        "text": "Computational Chemistry",
+        "description": "Molecular docking and computational modeling"
+      },
+      {
+        "icon": "flask",
+        "text": "Quality Analysis",
+        "description": "Pharmaceutical quality control and testing"
+      }
+    ],
+    "stats": [
+      { "value": "5+", "label": "Research Projects" },
+      { "value": "3+", "label": "Publications" },
+      { "value": "3.69", "label": "GPA (MS)" },
+      { "value": "4+", "label": "Years Experience" }
+    ]
+  }
+}

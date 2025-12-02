@@ -1,0 +1,78 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "period": "2024 – Present",
+      "title": "Quality Control Analyst & R&D",
+      "organization": "Shazeb Pharmaceutical Industry Pvt. Ltd",
+      "type": "industry",
+      "description": [
+        "Testing raw materials, packaging materials, in-process and finished products using advanced analytical instruments",
+        "Expertise in HPLC, FT-IR, UV-visible Spectrophotometry for quality assurance and compliance",
+        "Contributing to research and development of new pharmaceutical formulations"
+      ],
+      "tags": [
+        "Quality Control",
+        "Pharmaceuticals",
+        "Analytical Chemistry",
+        "HPLC",
+        "FTIR"
+      ]
+    },
+    {
+      "id": 2,
+      "period": "2023 – 2025",
+      "title": "Research Student",
+      "organization": "Abdul Wali Khan University Mardan, Pakistan",
+      "type": "research",
+      "description": [
+        "Leading multiple research projects in nanomaterials synthesis and biological evaluation",
+        "Project 1: Synthesis and characterization of silver nanoparticles embedded tiotropium Zinc nanocomposites (Ag@Zn-Tiotropium-NCs)",
+        "Project 2: Development of indole-based Chalcones and Schiff bases with biological applications",
+        "Project 3: Innovative synthesis of Carbon dots from human hairs using hydrothermal methods"
+      ],
+      "tags": [
+        "Nanomaterials",
+        "Drug Development",
+        "Synthesis Chemistry",
+        "Silver Nanoparticles"
+      ]
+    },
+    {
+      "id": 3,
+      "period": "2020 – 2023",
+      "title": "Research Student",
+      "organization": "University of Swat, Pakistan",
+      "type": "research",
+      "description": [
+        "Pioneering research on nanocomposite materials with applications in biomedical and environmental fields",
+        "Developed novel synthesis methods for carbon dot and silver nanoparticle composites",
+        "Characterized material properties and evaluated potential applications"
+      ],
+      "tags": [
+        "Nanocomposites",
+        "Material Science",
+        "Green Chemistry",
+        "Carbon Dots"
+      ]
+    },
+    {
+      "id": 4,
+      "period": "2020 – 2023",
+      "title": "Chemistry Tutor",
+      "organization": "Private Tutoring",
+      "type": "education",
+      "description": [
+        "Mentored students in fundamental and advanced chemistry concepts",
+        "Focused on building critical thinking and practical laboratory skills",
+        "Developed customized teaching approaches to enhance student understanding and performance"
+      ],
+      "tags": [
+        "Education",
+        "Mentorship",
+        "Chemistry Teaching",
+        "Student Development"
+      ]
+    }
+  ]
+}

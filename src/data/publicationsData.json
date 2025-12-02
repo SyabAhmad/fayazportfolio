@@ -1,0 +1,67 @@
+{
+  "publications": [
+    {
+      "id": 1,
+      "title": "Biomedical Applications of Bismuth Vanadate Nanoparticles: A Review",
+      "authors": "Ihsan Ullah, Mustafa Kamal, Habib unnabi, Adnan Khan, Sayyad Fayaz Ahmad Shah, Hangqing Huang, Subhan Ali, Muhammad Ghayoor, Misbah Gul and Ajmal Shah",
+      "journal": "Biomed J Sci & Tech Res 62(3)-2025. BJSTR. MS.ID.009743",
+      "status": "Published",
+      "year": "2025",
+      "abstract": "This comprehensive review explores the biomedical applications of bismuth vanadate nanoparticles, focusing on their antimicrobial, photocatalytic, and imaging properties.",
+      "doi": "10.26717/BJSTR.2025.62.009743"
+    },
+    {
+      "id": 2,
+      "title": "Comparative Study of Antibacterial and Antifungal Activities of Vanadium Oxide Nanoparticles and Punica Granatum Extract",
+      "authors": "Ansar, R., Naeemullah., Zubair, M., Ahsan, M., Inamuddin., Shah, S.F.A., Javed, S.",
+      "journal": "ISAR Journal of Agriculture and Biology, 2(10), 45-49",
+      "status": "Published",
+      "year": "2024",
+      "abstract": "A comparative analysis of the antimicrobial efficacy of vanadium oxide nanoparticles against Punica granatum extract against various bacterial and fungal strains."
+    },
+    {
+      "id": 3,
+      "title": "Synthesis, characterization, and biological evaluation of indole-based chalcones",
+      "status": "Under Preparation",
+      "year": "2024",
+      "abstract": "Novel indole-based chalcones synthesized and evaluated for their potential biological activities, with focus on anticancer and antimicrobial properties."
+    },
+    {
+      "id": 4,
+      "title": "Immunoinformatics and Machine Learning in the Evaluation and Identification of Therapeutic Proteins for Multi-Epitope Vaccine Development against Influenza Virus Disease and Immune Response Enhancement",
+      "status": "Submitted",
+      "year": "2024",
+      "abstract": "Computational approach for identifying therapeutic proteins and developing multi-epitope vaccines against influenza virus using immunoinformatics and machine learning."
+    },
+    {
+      "id": 5,
+      "title": "Carbon Dots-Ag nanomaterials biosensors: Synthesis and applications in biological and medicinal fields",
+      "status": "Under Preparation",
+      "year": "2024",
+      "abstract": "Development of carbon dots-silver nanocomposite biosensors for sensitive detection of biomolecules with applications in diagnostics and medical research."
+    }
+  ],
+  "conferences": [
+    {
+      "id": 1,
+      "title": "International seminar on 'Biochemical Degradation of Pollutants for a Clean and Green Environment'",
+      "organization": "Department of Biochemistry, Abdul Wali Khan University Mardan, Pakistan",
+      "year": "2023",
+      "type": "Seminar"
+    },
+    {
+      "id": 2,
+      "title": "2-day workshop on 'Mass Spectrometry, NMR Spectroscopy, FTIR Spectroscopy, XRD, as Characterization techniques'",
+      "organization": "IM Group of Researchers and Review Hub",
+      "year": "2022",
+      "type": "Workshop"
+    },
+    {
+      "id": 3,
+      "title": "One-day seminar on 'Advance Separation Techniques in Analytical Chemistry, GC-MS, HPLC, and UHPLC'",
+      "organization": "Department of Chemistry, University of Swat, Pakistan",
+      "year": "2021",
+      "type": "Seminar"
+    }
+  ]
+}

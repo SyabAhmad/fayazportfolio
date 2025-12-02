@@ -1,0 +1,116 @@
+{
+  "skills": {
+    "computational_chemistry": {
+      "molecular_docking": [
+        "Molecular Operating Environment (MOE)",
+        "AutoDock Vina",
+        "Discovery Studio"
+      ],
+      "molecular_modeling": ["ROBETTA", "ClusPro", "ERRAT", "ChemDraw-3D"],
+      "computational_methods": [
+        "Combining computational tools with machine learning",
+        "Complex data analysis",
+        "Molecular behavior prediction",
+        "Immunoinformatics"
+      ]
+    },
+    "analytical_chemistry": {
+      "chromatography": [
+        "High Performance Liquid Chromatography (HPLC) Analysis",
+        "Reaction monitoring via Thin Layer Chromatography (TLC)"
+      ],
+      "spectroscopy": [
+        "Fourier Transform Infra-Red (FTIR) Spectrophotometry",
+        "UV-Visible Spectrophotometry",
+        "Energy Dispersive X-ray Spectroscopy (EDS/EDX)"
+      ],
+      "other_analytical_instruments": [
+        "Potentiometer Analysis",
+        "Polarimetry",
+        "Total Organic Carbon (TOC) Analyzer",
+        "Flame Photometry",
+        "Karl Fischer Titration"
+      ],
+      "quality_control_testing": [
+        "Raw Material Testing",
+        "Packaging Material Testing",
+        "In-Process Testing",
+        "Finished Product Testing",
+        "Water for Infusion (WFI) Testing"
+      ]
+    },
+    "synthesis_techniques": {
+      "organic_synthesis": [
+        "Hydrothermal Synthesis",
+        "Solvothermal Synthesis",
+        "Complex Organic Synthesis",
+        "Green Synthesis",
+        "Acid/Base Catalyzed Reactions",
+        "Reflux Reaction Synthesis",
+        "Sol-Gel Synthesis",
+        "Microwave Assisted Organic Synthesis"
+      ],
+      "nanomaterial_synthesis": [
+        "Co-Precipitation Method",
+        "Sol-Gel Method",
+        "Hydrothermal Synthesis",
+        "Solvothermal Synthesis",
+        "Chemical Vapor Deposition (CVD)",
+        "Biological Synthesis",
+        "Electrochemical Synthesis"
+      ],
+      "polymer_synthesis": [
+        "Intercalation Reactions",
+        "Sol-Gel Processing",
+        "Living Anionic Polymerization"
+      ],
+      "complex_synthesis": [
+        "Sonication",
+        "Autoclave Use",
+        "Microwave Assisted Techniques"
+      ]
+    },
+    "pharmacology_and_biological_evaluation": [
+      "Antibacterial Activity Studies",
+      "Antifungal Activity Studies",
+      "Biological Evaluation of Nanoparticles",
+      "Biological Evaluation of Organic Compounds (e.g., Chalcones, Schiff Bases)"
+    ],
+    "laboratory_and_general_skills": {
+      "lab_management_and_safety": [
+        "Calibration of Laboratory Instruments",
+        "Inventory Management",
+        "Chemical Spill Management",
+        "Personal Protective Equipment (PPE) Usage"
+      ],
+      "sample_preparation": [
+        "Weighing and Measuring",
+        "Preparation of Standard and Stock Solutions",
+        "Reagent and Buffer Preparation"
+      ],
+      "characterization": [
+        "Characterization of Compounds via HPLC",
+        "Characterization of Compounds via FTIR",
+        "Characterization of Compounds via UV-Vis",
+        "Characterization of Compounds via EDS"
+      ]
+    },
+    "software_and_digital_tools": {
+      "chemistry_software": [
+        "MestReNova (NMR Spectra Visualization)",
+        "ChemDraw-3D"
+      ],
+      "data_and_office_software": [
+        "Microsoft Office (Word, Excel, PowerPoint, Teams)",
+        "Origin (Data Visualization and Plotting)"
+      ],
+      "digital_literacy": ["Digital Literacy", "Creative Writing"]
+    },
+    "research_and_development": [
+      "Research and Development (R&D)",
+      "Quality Control (QC) Analysis",
+      "Tutoring and Fundamentals Building"
+    ],
+    "language_skills": ["English", "Pashto", "Urdu", "Hindi"]
+  }
+}

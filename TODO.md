@@ -1,0 +1,7 @@
+- [x] Import skillsdata.json into Skills.jsx
+- [x] Transform JSON data into coreChemistry array
+- [x] Transform JSON data into analyticalTechniques array
+- [x] Transform JSON data into computationalSkills array
+- [x] Transform JSON data into professionalSkills array
+- [x] Update Skills.jsx to use the new arrays and remove unused code
+- [x] Test the component for rendering without errors

@@ -1,0 +1,53 @@
+{
+  "education": [
+    {
+      "id": 1,
+      "degree": "Master of Science: Chemistry",
+      "institution": "Abdul Wali Khan University Mardan, Pakistan",
+      "period": "2023 – 2025",
+      "gpa": "3.69/4.00",
+      "thesis": "Synthesis, characterization, and biological evaluation of indole-based chalcones",
+      "highlights": [
+        "Research focus on organic synthesis and biological applications",
+        "Advanced coursework in Computational Chemistry and Nanomaterials",
+        "Publication of research findings in peer-reviewed journals"
+      ]
+    },
+    {
+      "id": 2,
+      "degree": "Bachelor of Science: Chemistry",
+      "institution": "University of Swat, Pakistan",
+      "period": "2018 – 2022",
+      "gpa": "3.26/4.00",
+      "thesis": "A nanocomposite of carbon dot and silver nanoparticles, its synthesis and applications",
+      "highlights": [
+        "Foundation in chemical principles and laboratory techniques",
+        "Specialization in Nanomaterials and Green Chemistry",
+        "Development of novel synthesis methods for nanocomposites"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "IELTS",
+      "issuer": "British Council",
+      "year": "2023",
+      "description": "International English Language Testing System"
+    },
+    {
+      "id": 2,
+      "title": "Creative Writing",
+      "issuer": "Virtual University, Pakistan (DigiSkills)",
+      "year": "2021",
+      "description": "Professional development in scientific communication"
+    },
+    {
+      "id": 3,
+      "title": "Digital Literacy",
+      "issuer": "Virtual University, Pakistan (DigiSkills)",
+      "year": "2022",
+      "description": "Modern digital tools for research and collaboration"
+    }
+  ]
+}

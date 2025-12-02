@@ -1,0 +1,44 @@
+{
+  "personal": {
+    "name": "Sayyad Fayaz Ahmad Shah",
+    "title": "Chemistry Researcher & Quality Control Analyst",
+    "tagline": "Transforming Molecules into Innovations",
+    "location": "Swat, Pakistan",
+    "bio": "An aspiring chemistry researcher passionate about advancing sustainable and computational chemistry. My expertise lies in the synthesis of diverse compounds, including organic molecules and nanomaterials, as well as utilizing computational tools to model and analyze chemical interactions."
+  },
+  "contact": {
+    "phones": ["+92-348-1958216", "+92-308-9480944"],
+    "email": "sayyad.fayaz@hotmail.com",
+    "skype": "live:864c7247663400be",
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/sayyadfayaz",
+      "username": "sayyadfayaz"
+    },
+    "twitter": "@Sfayaz_Says"
+  },
+  "references": [
+    {
+      "id": 1,
+      "name": "Prof. Dr. Khair Zaman",
+      "position": "Department of Chemistry",
+      "institution": "Abdul Wali Khan University, Mardan",
+      "email": "kzaman80@awkum.edu.pk",
+      "expertise": "Organic Chemistry & Nanomaterials"
+    },
+    {
+      "id": 2,
+      "name": "Prof. Dr. Ihsan Ullah",
+      "position": "Department of Chemistry",
+      "institution": "University of Swat",
+      "email": "Ihsanmtk@uswat.edu.pk",
+      "expertise": "Biomedical Applications & Nanotechnology"
+    }
+  ],
+  "specializations": [
+    "Organic Synthesis",
+    "Nanomaterials",
+    "Computational Chemistry",
+    "Quality Analysis",
+    "Pharmaceutical Research"
+  ]
+}
