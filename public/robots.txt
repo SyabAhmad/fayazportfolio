@@ -1,0 +1,10 @@
+# Robots.txt for Sayyad Fayaz Ahmad Shah Portfolio
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://sayyadfayaz.vercel.app/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
