@@ -95,13 +95,40 @@
   animation-delay: 500ms;
 }
 
+/* Light Mode Variables */
+:root {
+  /* Default is dark mode */
+  --bg-primary: #0a0a1a;
+  --bg-secondary: #0d1025;
+  --bg-card: rgba(255, 255, 255, 0.05);
+  --bg-card-border: rgba(255, 255, 255, 0.1);
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --icon-opacity: 0.15;
+  --glow-opacity: 0.1;
+}
+
+:root.light-mode {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-card: rgba(0, 0, 0, 0.03);
+  --bg-card-border: rgba(0, 0, 0, 0.08);
+  --text-primary: #0f172a;
+  --text-secondary: #334155;
+  --text-muted: #64748b;
+  --icon-opacity: 0.08;
+  --glow-opacity: 0.15;
+}
+
 /* Base styles */
 @layer base {
   body {
-    background-color: var(--color-chemistry-dark);
-    color: var(--color-text-primary);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
     font-family: var(--font-body);
     overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   h1,
@@ -113,22 +140,198 @@
     font-family: var(--font-heading);
   }
 
+  /* Light mode specific overrides */
+  :root.light-mode .glass,
+  :root.light-mode .glass-dark {
+    background: rgba(255, 255, 255, 0.8);
+    border-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  :root.light-mode .gradient-text {
+    background: linear-gradient(to right, #0891b2, #7c3aed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  :root.light-mode .text-white {
+    color: #0f172a !important;
+  }
+
+  :root.light-mode .text-gray-400,
+  :root.light-mode .text-gray-500,
+  :root.light-mode .text-gray-600 {
+    color: #475569 !important;
+  }
+
+  :root.light-mode .text-gray-300 {
+    color: #334155 !important;
+  }
+
+  :root.light-mode .border-white\/10,
+  :root.light-mode .border-white\/5,
+  :root.light-mode .border-white\/20 {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+
+  :root.light-mode .bg-white\/5,
+  :root.light-mode .bg-white\/10 {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+
+  /* Fix specific color classes for light mode */
+  :root.light-mode .text-\[\#f8fafc\] {
+    color: #0f172a !important;
+  }
+
+  :root.light-mode .text-\[\#cbd5e1\] {
+    color: #334155 !important;
+  }
+
+  :root.light-mode .text-\[\#94a3b8\] {
+    color: #475569 !important;
+  }
+
+  :root.light-mode .text-\[\#00f5ff\] {
+    color: #0891b2 !important;
+  }
+
+  :root.light-mode .text-\[\#a855f7\] {
+    color: #7c3aed !important;
+  }
+
+  :root.light-mode .text-\[\#ec4899\] {
+    color: #db2777 !important;
+  }
+
+  :root.light-mode .text-\[\#10b981\] {
+    color: #059669 !important;
+  }
+
+  :root.light-mode .text-\[\#f97316\] {
+    color: #ea580c !important;
+  }
+
+  /* Background adjustments for light mode */
+  :root.light-mode .bg-\[\#0a0a1a\] {
+    background-color: #f8fafc !important;
+  }
+
+  :root.light-mode .bg-\[\#00f5ff\]\/10,
+  :root.light-mode .bg-\[\#a855f7\]\/10,
+  :root.light-mode .bg-\[\#ec4899\]\/10,
+  :root.light-mode .bg-\[\#10b981\]\/10 {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+  }
+
+  /* Floating icons opacity in light mode - Make them more visible */
+  :root.light-mode [class*="text-cyan-500\\/"] {
+    color: #0891b2 !important;
+    opacity: 0.25 !important;
+  }
+
+  :root.light-mode [class*="text-purple-500\\/"] {
+    color: #7c3aed !important;
+    opacity: 0.25 !important;
+  }
+
+  :root.light-mode [class*="text-pink-500\\/"] {
+    color: #db2777 !important;
+    opacity: 0.25 !important;
+  }
+
+  :root.light-mode [class*="text-green-500\\/"] {
+    color: #059669 !important;
+    opacity: 0.25 !important;
+  }
+
+  :root.light-mode [class*="text-orange-500\\/"] {
+    color: #ea580c !important;
+    opacity: 0.25 !important;
+  }
+
+  :root.light-mode [class*="text-cyan-500"]:not([class*="\\/"]) {
+    color: #0891b2 !important;
+    opacity: 0.3 !important;
+  }
+
+  :root.light-mode [class*="text-purple-500"]:not([class*="\\/"]) {
+    color: #7c3aed !important;
+    opacity: 0.3 !important;
+  }
+
+  :root.light-mode [class*="text-pink-500"]:not([class*="\\/"]) {
+    color: #db2777 !important;
+    opacity: 0.3 !important;
+  }
+
+  :root.light-mode [class*="text-green-500"]:not([class*="\\/"]) {
+    color: #059669 !important;
+    opacity: 0.3 !important;
+  }
+
+  :root.light-mode [class*="text-orange-500"]:not([class*="\\/"]) {
+    color: #ea580c !important;
+    opacity: 0.3 !important;
+  }
+
+  /* Glowing orbs in light mode */
+  :root.light-mode [class*="bg-cyan-500\\/"],
+  :root.light-mode [class*="bg-purple-500\\/"],
+  :root.light-mode [class*="bg-pink-500\\/"],
+  :root.light-mode [class*="bg-green-500\\/"],
+  :root.light-mode [class*="bg-orange-500\\/"] {
+    opacity: 0.3 !important;
+  }
+
+  :root.light-mode [class*="bg-\\[\\#00f5ff\\]"],
+  :root.light-mode [class*="bg-\\[\\#a855f7\\]"],
+  :root.light-mode [class*="bg-\\[\\#ec4899\\]"],
+  :root.light-mode [class*="bg-\\[\\#10b981\\]"] {
+    opacity: 0.4 !important;
+  }
+
+  /* SVG molecular structures in light mode */
+  :root.light-mode svg[class*="opacity-"] {
+    opacity: 0.08 !important;
+  }
+
+  :root.light-mode svg g[stroke] {
+    stroke-opacity: 0.3;
+  }
+
+  /* Card text adjustments */
+  :root.light-mode .card-hover {
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  :root.light-mode section {
+    color: #0f172a;
+  }
+
+  /* Header adjustments */
+  :root.light-mode .glass-dark {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(20px);
+  }
+
   /* Scrollbar styling */
   ::-webkit-scrollbar {
     width: 10px;
   }
 
   ::-webkit-scrollbar-track {
-    background: var(--color-chemistry-dark);
+    background: var(--bg-primary);
   }
 
   ::-webkit-scrollbar-thumb {
-    background: var(--color-chemistry-navy);
+    background: var(--bg-secondary);
     border-radius: 5px;
-    border: 1px solid var(--color-glass-border);
+    border: 1px solid var(--bg-card-border);
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-chemistry-purple);
+    background: var(--text-muted);
   }
 }
