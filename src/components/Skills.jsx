@@ -5,7 +5,24 @@ import {
   FaMicroscope,
   FaAtom,
   FaBrain,
+  FaVial,
+  FaDna,
+  FaSyringe,
+  FaThermometerHalf,
+  FaFire,
+  FaRadiation,
+  FaEyeDropper,
 } from "react-icons/fa";
+import {
+  GiMolecule,
+  GiChemicalDrop,
+  GiTestTubes,
+  GiMicroscope,
+  GiAtom,
+  GiDna1,
+  GiDna2,
+  GiChemicalTank,
+} from "react-icons/gi";
 import skillsData from "../data/skillsdata.json";
 
 const Skills = () => {
@@ -155,8 +172,130 @@ const Skills = () => {
     >
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Glowing orbs */}
         <div className="absolute top-20 right-20 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 left-20 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute top-1/2 left-1/3 w-72 h-72 bg-pink-500/5 rounded-full blur-3xl animate-pulse delay-500"></div>
+
+        {/* Floating Lab Equipment Icons */}
+        <div className="absolute top-[10%] left-[5%] text-cyan-500/20 animate-float">
+          <FaFlask className="text-6xl" />
+        </div>
+        <div className="absolute top-[15%] right-[10%] text-purple-500/20 animate-float delay-300">
+          <FaMicroscope className="text-7xl" />
+        </div>
+        <div className="absolute top-[40%] left-[3%] text-pink-500/15 animate-float delay-700">
+          <FaVial className="text-5xl" />
+        </div>
+        <div className="absolute bottom-[30%] right-[5%] text-cyan-500/15 animate-float delay-200">
+          <FaAtom className="text-8xl animate-spin-slow" />
+        </div>
+        <div className="absolute bottom-[15%] left-[15%] text-green-500/15 animate-float delay-500">
+          <FaDna className="text-6xl" />
+        </div>
+        <div className="absolute top-[60%] right-[12%] text-purple-500/10 animate-float delay-100">
+          <FaSyringe className="text-5xl rotate-45" />
+        </div>
+        <div className="absolute top-[25%] left-[20%] text-orange-500/15 animate-float delay-600">
+          <FaThermometerHalf className="text-4xl" />
+        </div>
+        <div className="absolute bottom-[40%] left-[8%] text-yellow-500/10 animate-float delay-400">
+          <FaFire className="text-5xl" />
+        </div>
+        <div className="absolute top-[70%] left-[25%] text-cyan-500/10 animate-float delay-800">
+          <FaEyeDropper className="text-4xl" />
+        </div>
+        <div className="absolute top-[5%] left-[40%] text-purple-500/15 animate-float delay-200">
+          <GiMolecule className="text-9xl" />
+        </div>
+        <div className="absolute bottom-[10%] right-[20%] text-pink-500/10 animate-float delay-700">
+          <GiTestTubes className="text-7xl" />
+        </div>
+        <div className="absolute top-[50%] right-[3%] text-green-500/10 animate-float delay-300">
+          <GiChemicalDrop className="text-6xl" />
+        </div>
+        <div className="absolute bottom-[5%] left-[45%] text-cyan-500/15 animate-float delay-500">
+          <GiDna1 className="text-8xl" />
+        </div>
+        <div className="absolute top-[35%] right-[25%] text-purple-500/10 animate-float delay-100">
+          <GiAtom className="text-7xl animate-spin-slow" />
+        </div>
+        <div className="absolute bottom-[25%] right-[35%] text-orange-500/10 animate-float delay-600">
+          <GiChemicalTank className="text-5xl" />
+        </div>
+
+        {/* Molecular Bond Lines */}
+        <svg className="absolute inset-0 w-full h-full opacity-5">
+          <defs>
+            <linearGradient
+              id="bondGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop offset="0%" stopColor="#00f5ff" />
+              <stop offset="50%" stopColor="#a855f7" />
+              <stop offset="100%" stopColor="#ec4899" />
+            </linearGradient>
+          </defs>
+          {/* Hexagonal molecular structure */}
+          <g stroke="url(#bondGradient)" strokeWidth="1" fill="none">
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(50, 100)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(200, 300) scale(1.5)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(800, 150) scale(0.8)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(900, 400)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(600, 500) scale(1.2)"
+            />
+          </g>
+          {/* Connection lines */}
+          <line
+            x1="200"
+            y1="175"
+            x2="350"
+            y2="375"
+            stroke="url(#bondGradient)"
+            strokeWidth="0.5"
+          />
+          <line
+            x1="950"
+            y1="200"
+            x2="1000"
+            y2="450"
+            stroke="url(#bondGradient)"
+            strokeWidth="0.5"
+          />
+        </svg>
+
+        {/* Floating particles */}
+        {[...Array(15)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute rounded-full bg-cyan-500/30"
+            style={{
+              width: `${3 + Math.random() * 5}px`,
+              height: `${3 + Math.random() * 5}px`,
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animation: `float ${6 + Math.random() * 4}s ease-in-out infinite`,
+              animationDelay: `${Math.random() * 5}s`,
+            }}
+          />
+        ))}
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

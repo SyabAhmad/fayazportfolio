@@ -10,7 +10,11 @@ import {
   FaLaptopCode,
   FaDownload,
   FaArrowDown,
+  FaVial,
+  FaDna,
+  FaSyringe,
 } from "react-icons/fa";
+import { GiMolecule, GiTestTubes, GiChemicalDrop } from "react-icons/gi";
 import heroData from "../data/heroData.json";
 import contactData from "../data/contactData.json";
 
@@ -45,11 +49,40 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden"
     >
       {/* Animated Background */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Gradient orbs */}
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#00f5ff]/10 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#a855f7]/10 rounded-full blur-3xl animate-float delay-300" />
         <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-[#ec4899]/10 rounded-full blur-3xl animate-float delay-500" />
+
+        {/* Floating Lab Equipment */}
+        <div className="absolute top-[8%] left-[5%] text-cyan-500/15 animate-float">
+          <FaFlask className="text-7xl" />
+        </div>
+        <div className="absolute top-[15%] right-[8%] text-purple-500/20 animate-float delay-300">
+          <FaAtom className="text-9xl animate-spin-slow" />
+        </div>
+        <div className="absolute top-[45%] left-[2%] text-pink-500/15 animate-float delay-500">
+          <FaVial className="text-5xl rotate-12" />
+        </div>
+        <div className="absolute bottom-[20%] right-[5%] text-cyan-500/15 animate-float delay-200">
+          <FaMicroscope className="text-8xl" />
+        </div>
+        <div className="absolute bottom-[35%] left-[8%] text-green-500/15 animate-float delay-700">
+          <FaDna className="text-6xl" />
+        </div>
+        <div className="absolute top-[30%] right-[15%] text-purple-500/10 animate-float delay-400">
+          <GiMolecule className="text-8xl" />
+        </div>
+        <div className="absolute bottom-[10%] left-[20%] text-cyan-500/10 animate-float delay-600">
+          <GiTestTubes className="text-6xl" />
+        </div>
+        <div className="absolute top-[60%] right-[10%] text-pink-500/10 animate-float delay-100">
+          <GiChemicalDrop className="text-5xl" />
+        </div>
+        <div className="absolute bottom-[5%] right-[30%] text-orange-500/10 animate-float delay-800">
+          <FaSyringe className="text-5xl rotate-45" />
+        </div>
 
         {/* Floating particles */}
         {particles.map((particle) => (
@@ -68,13 +101,35 @@ const Hero = () => {
           />
         ))}
 
-        {/* Molecular structure decoration */}
-        <div className="absolute top-20 right-10 opacity-20">
-          <FaAtom className="text-8xl text-[#00f5ff] animate-rotate-slow" />
-        </div>
-        <div className="absolute bottom-20 left-10 opacity-20">
-          <FaMicroscope className="text-6xl text-[#a855f7] animate-float" />
-        </div>
+        {/* Molecular Bond SVG */}
+        <svg className="absolute inset-0 w-full h-full opacity-5">
+          <defs>
+            <linearGradient
+              id="heroGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop offset="0%" stopColor="#00f5ff" />
+              <stop offset="100%" stopColor="#a855f7" />
+            </linearGradient>
+          </defs>
+          <g stroke="url(#heroGradient)" strokeWidth="1" fill="none">
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(80, 150)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(850, 100) scale(1.3)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(700, 450) scale(0.9)"
+            />
+          </g>
+        </svg>
       </div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

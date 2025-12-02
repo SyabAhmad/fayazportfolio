@@ -11,7 +11,16 @@ import {
   FaPaperPlane,
   FaAtom,
   FaArrowRight,
+  FaMicroscope,
+  FaVial,
+  FaDna,
 } from "react-icons/fa";
+import {
+  GiMolecule,
+  GiTestTubes,
+  GiChemicalDrop,
+  GiAtom,
+} from "react-icons/gi";
 import contactData from "../data/contactData.json";
 
 const Contact = () => {
@@ -84,9 +93,71 @@ const Contact = () => {
     <section id="contact" className="py-20 relative" ref={sectionRef}>
       {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Glowing orbs */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#00f5ff]/5 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#a855f7]/5 rounded-full blur-3xl" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-[#ec4899]/5 rounded-full blur-3xl" />
+
+        {/* Floating Contact/Lab Icons */}
+        <div className="absolute top-[10%] left-[5%] text-cyan-500/15 animate-float">
+          <FaAtom className="text-7xl animate-spin-slow" />
+        </div>
+        <div className="absolute top-[15%] right-[8%] text-purple-500/15 animate-float delay-300">
+          <FaFlask className="text-6xl" />
+        </div>
+        <div className="absolute bottom-[20%] left-[10%] text-pink-500/10 animate-float delay-500">
+          <FaMicroscope className="text-5xl" />
+        </div>
+        <div className="absolute top-[45%] right-[3%] text-green-500/10 animate-float delay-200">
+          <GiMolecule className="text-8xl" />
+        </div>
+        <div className="absolute bottom-[35%] right-[12%] text-cyan-500/10 animate-float delay-700">
+          <FaDna className="text-6xl" />
+        </div>
+        <div className="absolute top-[65%] left-[3%] text-purple-500/10 animate-float delay-400">
+          <GiTestTubes className="text-5xl" />
+        </div>
+        <div className="absolute bottom-[5%] right-[25%] text-orange-500/10 animate-float delay-600">
+          <FaVial className="text-4xl rotate-12" />
+        </div>
+        <div className="absolute top-[30%] left-[15%] text-pink-500/10 animate-float delay-100">
+          <GiChemicalDrop className="text-5xl" />
+        </div>
+
+        {/* Molecular SVG */}
+        <svg className="absolute inset-0 w-full h-full opacity-[0.03]">
+          <defs>
+            <linearGradient
+              id="contactGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop offset="0%" stopColor="#00f5ff" />
+              <stop offset="50%" stopColor="#a855f7" />
+              <stop offset="100%" stopColor="#ec4899" />
+            </linearGradient>
+          </defs>
+          <g stroke="url(#contactGradient)" strokeWidth="1" fill="none">
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(80, 80)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(820, 100) scale(1.1)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(100, 400) scale(0.9)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(750, 380)"
+            />
+          </g>
+        </svg>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

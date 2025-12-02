@@ -8,7 +8,12 @@ import {
   FaUniversity,
   FaBook,
   FaStar,
+  FaFlask,
+  FaMicroscope,
+  FaVial,
+  FaDna,
 } from "react-icons/fa";
+import { GiMolecule, GiTestTubes, GiDna1, GiAtom } from "react-icons/gi";
 import educationData from "../data/educationData.json";
 
 const Education = () => {
@@ -36,8 +41,67 @@ const Education = () => {
     <section id="education" className="py-20 relative" ref={sectionRef}>
       {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {/* Glowing orbs */}
         <div className="absolute top-1/3 left-0 w-80 h-80 bg-[#10b981]/5 rounded-full blur-3xl" />
         <div className="absolute bottom-1/3 right-0 w-96 h-96 bg-[#00f5ff]/5 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 w-72 h-72 bg-[#a855f7]/5 rounded-full blur-3xl" />
+
+        {/* Floating Education/Lab Icons */}
+        <div className="absolute top-[8%] left-[5%] text-green-500/15 animate-float">
+          <FaGraduationCap className="text-8xl" />
+        </div>
+        <div className="absolute top-[15%] right-[10%] text-cyan-500/15 animate-float delay-300">
+          <FaAtom className="text-6xl animate-spin-slow" />
+        </div>
+        <div className="absolute bottom-[20%] left-[8%] text-purple-500/10 animate-float delay-500">
+          <FaFlask className="text-5xl" />
+        </div>
+        <div className="absolute top-[45%] right-[5%] text-pink-500/10 animate-float delay-200">
+          <FaMicroscope className="text-6xl" />
+        </div>
+        <div className="absolute bottom-[10%] right-[15%] text-green-500/10 animate-float delay-700">
+          <GiMolecule className="text-7xl" />
+        </div>
+        <div className="absolute top-[65%] left-[3%] text-cyan-500/10 animate-float delay-400">
+          <GiDna1 className="text-6xl" />
+        </div>
+        <div className="absolute bottom-[35%] right-[3%] text-orange-500/10 animate-float delay-600">
+          <FaBook className="text-5xl" />
+        </div>
+        <div className="absolute top-[30%] left-[12%] text-purple-500/10 animate-float delay-100">
+          <GiTestTubes className="text-5xl" />
+        </div>
+
+        {/* Molecular SVG */}
+        <svg className="absolute inset-0 w-full h-full opacity-[0.03]">
+          <defs>
+            <linearGradient
+              id="eduGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop offset="0%" stopColor="#10b981" />
+              <stop offset="50%" stopColor="#00f5ff" />
+              <stop offset="100%" stopColor="#a855f7" />
+            </linearGradient>
+          </defs>
+          <g stroke="url(#eduGradient)" strokeWidth="1" fill="none">
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(50, 100)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(850, 150) scale(1.1)"
+            />
+            <polygon
+              points="100,50 150,75 150,125 100,150 50,125 50,75"
+              transform="translate(750, 450) scale(0.9)"
+            />
+          </g>
+        </svg>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
