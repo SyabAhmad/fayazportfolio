@@ -148,7 +148,7 @@ const Hero = () => {
               ></div>
               <div className="relative w-40 h-40 sm:w-48 sm:h-48 mx-auto rounded-full p-1 bg-gradient-to-r from-[#00f5ff] via-[#a855f7] to-[#ec4899]">
                 <img
-                  src="/dp.png"
+                  src="/PP.jpg"
                   alt="Sayyad Fayaz Ahmad Shah"
                   className="w-full h-full rounded-full object-cover border-4 border-[#0a0a1a]"
                 />
