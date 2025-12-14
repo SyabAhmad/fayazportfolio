@@ -1,6 +1,16 @@
 {
   "publications": [
     {
+      "id": 6,
+      "title": "Effective Degradation of Methyl Orange dye by UV/PS Process: kinetics and mechanism",
+      "authors": "Habib UN Nabi, Kamran Khan, Seema Sarfaraz, Adnan Khan, Sayyad Fayaz Ahmad Shah, Ihsan Ullah",
+      "journal": "Annual Methodological Archive Research Review, Vol. 3 No. 9, 2025",
+      "status": "Published",
+      "year": "2025",
+      "abstract": "Study on the effective degradation of Methyl Orange dye using UV/PS process, including kinetic analysis and mechanistic insights for wastewater treatment.",
+      "doi": "https://www.amresearchjournal.com/index.php/Journal/article/view/721"
+    },
+    {
       "id": 1,
       "title": "Biomedical Applications of Bismuth Vanadate Nanoparticles: A Review",
       "authors": "Ihsan Ullah, Mustafa Kamal, Habib unnabi, Adnan Khan, Sayyad Fayaz Ahmad Shah, Hangqing Huang, Subhan Ali, Muhammad Ghayoor, Misbah Gul and Ajmal Shah",

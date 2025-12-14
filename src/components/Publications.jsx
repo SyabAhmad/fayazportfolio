@@ -189,7 +189,7 @@ const Publications = () => {
         {/* Publications */}
         {activeTab === "publications" && (
           <div className="space-y-6">
-            {publicationsData.publications.map((pub, index) => {
+            {[...publicationsData.publications].sort((a, b) => b.year - a.year).map((pub, index) => {
               const statusStyle =
                 statusColors[pub.status] || statusColors.Published;
               return (
