@@ -6,7 +6,7 @@
 
     <!-- Primary Meta Tags -->
     <title>
-      Sayyad Fayaz Ahmad Shah | Chemistry Researcher & Quality Control Analyst
+      Sayyad Fayaz Ahmad Shah | Chemistry Researcher &amp; Quality Control Analyst
     </title>
     <meta
       name="title"
@@ -14,48 +14,84 @@
     />
     <meta
       name="description"
-      content="Expert Chemistry Researcher specializing in organic synthesis, nanomaterials, computational chemistry, and pharmaceutical quality control. PhD candidate with 5+ years of research experience."
+      content="Chemistry researcher specialising in organic synthesis, nanomaterials, computational chemistry and pharmaceutical quality control. M.Phil with 5+ years of research experience, seeking fully funded PhD positions."
     />
     <meta
       name="keywords"
-      content="Chemistry Researcher, Quality Control Analyst, Organic Synthesis, Nanomaterials, Computational Chemistry, Pharmaceutical Analysis, DFT, HPLC, UV-Vis Spectroscopy, Green Chemistry, Sayyad Fayaz Ahmad Shah"
+      content="Chemistry Researcher, Quality Control Analyst, Organic Synthesis, Nanomaterials, Computational Chemistry, Pharmaceutical Analysis, DFT, Molecular Docking, HPLC, UV-Vis Spectroscopy, FTIR, Green Chemistry, M.Phil Chemistry, Sayyad Fayaz Ahmad Shah"
     />
     <meta name="author" content="Sayyad Fayaz Ahmad Shah" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="English" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#08080a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#faf9f7" media="(prefers-color-scheme: light)" />
+
+    <!-- Set the theme before first paint so there is no flash of the wrong one.
+         Light ("editorial") is the house default and is NOT overridden by the
+         OS preference — only an explicit stored choice changes it. -->
+    <script>
+      (function () {
+        var theme = "light";
+        try {
+          var stored = localStorage.getItem("theme");
+          if (stored === "light" || stored === "dark") theme = stored;
+        } catch (e) {
+          theme = "light";
+        }
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      })();
+    </script>
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="profile" />
     <meta property="og:url" content="https://sayyadfayaz.vercel.app/" />
+    <meta property="og:site_name" content="Sayyad Fayaz Ahmad Shah" />
     <meta
       property="og:title"
       content="Sayyad Fayaz Ahmad Shah | Chemistry Researcher"
     />
     <meta
       property="og:description"
-      content="Expert Chemistry Researcher specializing in organic synthesis, nanomaterials, computational chemistry, and pharmaceutical quality control."
+      content="Organic synthesis, nanomaterials, computational chemistry and pharmaceutical quality control. Open to fully funded PhD positions."
     />
-    <meta property="og:image" content="/dp.png" />
-    <meta property="og:site_name" content="Sayyad Fayaz Ahmad Shah Portfolio" />
+    <meta
+      property="og:image"
+      content="https://sayyadfayaz.vercel.app/og.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Sayyad Fayaz Ahmad Shah — Chemistry Researcher &amp; Quality Control Analyst"
+    />
+    <meta property="profile:first_name" content="Sayyad Fayaz" />
+    <meta property="profile:last_name" content="Ahmad Shah" />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://x.com/Sfayaz_Says" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Sfayaz_Says" />
+    <meta name="twitter:creator" content="@Sfayaz_Says" />
     <meta
-      property="twitter:title"
+      name="twitter:title"
       content="Sayyad Fayaz Ahmad Shah | Chemistry Researcher"
     />
     <meta
-      property="twitter:description"
-      content="Expert Chemistry Researcher specializing in organic synthesis, nanomaterials, computational chemistry, and pharmaceutical quality control."
+      name="twitter:description"
+      content="Organic synthesis, nanomaterials, computational chemistry and pharmaceutical quality control. Open to fully funded PhD positions."
     />
-    <meta property="twitter:image" content="/dp.png" />
+    <meta
+      name="twitter:image"
+      content="https://sayyadfayaz.vercel.app/og.jpg"
+    />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://sayyadfayaz.vercel.app/" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/dp.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" href="/dp.png" />
     <link rel="apple-touch-icon" href="/dp.png" />
 
     <!-- Google tag (gtag.js) -->
@@ -78,16 +114,26 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Sayyad Fayaz Ahmad Shah",
+        "givenName": "Sayyad Fayaz Ahmad",
+        "familyName": "Shah",
         "jobTitle": "Chemistry Researcher & Quality Control Analyst",
-        "description": "Expert in organic synthesis, nanomaterials, computational chemistry, and pharmaceutical quality control",
+        "description": "Chemistry researcher specialising in organic synthesis, nanomaterials, computational chemistry and pharmaceutical quality control.",
         "url": "https://sayyadfayaz.vercel.app",
-        "image": "/dp.png",
+        "image": "https://sayyadfayaz.vercel.app/og.jpg",
+        "email": "mailto:sayyad.fayaz@hotmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Swat",
+          "addressCountry": "PK"
+        },
         "sameAs": [
-          "https://www.linkedin.com/in/sayyad-fayaz-ahmad-shah-b8984b201"
+          "https://www.linkedin.com/in/sayyadfayaz",
+          "https://x.com/Sfayaz_Says"
         ],
         "alumniOf": {
           "@type": "EducationalOrganization",
-          "name": "University of Kashmir"
+          "name": "University of Swat",
+          "alternateName": ["Abdul Wali Khan University Mardan"]
         },
         "knowsAbout": [
           "Organic Chemistry",
@@ -95,18 +141,20 @@
           "Nanomaterials",
           "Pharmaceutical Analysis",
           "Quality Control",
+          "Molecular Docking",
           "HPLC",
+          "FTIR",
           "UV-Vis Spectroscopy",
-          "DFT Calculations"
+          "Green Chemistry"
         ]
       }
     </script>
 
-    <!-- Google Fonts - Inter -->
+    <!-- Fonts: Inter Tight (display), Inter (body), JetBrains Mono (labels) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..600;1,8..60,300..500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
   </head>

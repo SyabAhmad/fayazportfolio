@@ -1,7 +1,15 @@
 - [x] Import skillsdata.json into Skills.jsx
-- [x] Transform JSON data into coreChemistry array
-- [x] Transform JSON data into analyticalTechniques array
-- [x] Transform JSON data into computationalSkills array
-- [x] Transform JSON data into professionalSkills array
-- [x] Update Skills.jsx to use the new arrays and remove unused code
-- [x] Test the component for rendering without errors
+- [x] Transform JSON data into skill arrays
+- [x] Update Skills.jsx and remove unused code
+- [x] Complete the dark parchment / graphite / brass redesign
+- [x] Remove undefined colour tokens (`bone`, `verdigris`, `ink`, `ochre`)
+- [x] Rewrite Skills.jsx onto the real design system
+- [x] Generate favicon, apple-touch icon and social share card
+- [x] Load Inter Tight + JetBrains Mono
+- [x] Fix OG image URLs and JSON-LD sameAs
+- [x] Add scroll progress, scroll-spy nav, numbered sections
+
+- [ ] Add a downloadable CV PDF and link it from the hero + contact
+- [ ] Link full texts / PDFs for publications
+- [ ] Confirm the 2023–2025 vs 2024–Present overlap in experienceData.json
+- [ ] Decide whether to surface the second phone number

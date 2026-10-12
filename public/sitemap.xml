@@ -2,44 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sayyadfayaz.vercel.app/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sayyadfayaz.vercel.app/#about</loc>
-    <lastmod>2025-12-02</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://sayyadfayaz.vercel.app/blog</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://sayyadfayaz.vercel.app/#experience</loc>
-    <lastmod>2025-12-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://sayyadfayaz.vercel.app/blog/metal-organic-frameworks</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sayyadfayaz.vercel.app/#skills</loc>
-    <lastmod>2025-12-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://sayyadfayaz.vercel.app/blog/molecular-docking-practical-workflow</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sayyadfayaz.vercel.app/#education</loc>
-    <lastmod>2025-12-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://sayyadfayaz.vercel.app/blog/hplc-pharmaceutical-quality-control</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sayyadfayaz.vercel.app/#publications</loc>
-    <lastmod>2025-12-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://sayyadfayaz.vercel.app/blog/indole-chalcones-schiff-bases</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://sayyadfayaz.vercel.app/#contact</loc>
-    <lastmod>2025-12-02</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://sayyadfayaz.vercel.app/blog/silver-nanocomposites-antimicrobial</loc>
+    <lastmod>2026-02-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sayyadfayaz.vercel.app/blog/carbon-dots-from-human-hair</loc>
+    <lastmod>2025-12-04</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>

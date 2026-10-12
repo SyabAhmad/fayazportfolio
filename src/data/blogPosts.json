@@ -1,0 +1,244 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "slug": "carbon-dots-from-human-hair",
+      "title": "Turning Human Hair into Carbon Dots",
+      "kicker": "Nanomaterials",
+      "excerpt": "A hydrothermal treatment at 180 °C converts keratin waste into nitrogen- and sulfur-doped fluorescent carbon dots. Here is what actually happens in the flask, and why a biological feedstock makes unusually good quantum dots.",
+      "date": "2025-12-04",
+      "readingTime": 7,
+      "featured": true,
+      "tags": ["Carbon Dots", "Hydrothermal Synthesis", "Green Chemistry", "Fluorescence"],
+      "body": [
+        { "type": "p", "text": "Human hair is an unusual starting material. It is roughly 65% keratin, a cross-linked structural protein unusually rich in cysteine, and that single amino acid choice determines most of what follows. Cystine bridges decompose during heating into sulfur- and nitrogen-bearing fragments, and those fragments get built into the carbon lattice of the product rather than being washed away." },
+        { "type": "p", "text": "The result is a set of carbon dots — quasi-sporescent, under 10 nm carbon-rich particles that happen to be fluorescent. They are not engineered to a single size the way a top-down lithographic process would produce; they are a distribution, and that distribution is part of why they work so well." },
+        { "type": "h2", "text": "What happens at 180 °C" },
+        { "type": "p", "text": "A typical synthesis seals hair waste with deionised water in a Teflon-lined autoclave and holds it at 160–200 °C for four to six hours. No catalyst, no surfactant, no organic solvent. The sequence is roughly:" },
+        { "type": "ol", "items": [
+          "Denaturation — the keratin triple helix unwinds and hydrogen-bonded secondary structure collapses",
+          "Dehydration — hydroxyl and amine groups eliminate water, shifting the composition toward carbon",
+          "Polycondensation and aromatisation — small aromatic ring systems nucleate and fuse",
+          "Passivation — residual oxygen terminates the surface with carboxyl, hydroxyl and amine groups"
+        ] },
+        { "type": "p", "text": "Because the product is never isolated by chromatography, the sample is a *product* distribution, not a compound. Anyone reporting a single, precise structure for a carbon dot sample is overstating what the data supports." },
+        { "type": "h2", "text": "Why the fluorescence moves" },
+        { "type": "p", "text": "Carbon dots emit broadly, and the emission maximum shifts to longer wavelengths as the excitation wavelength increases — a behaviour so characteristic it is close to a diagnostic. The standard explanation is a competition between emissive surface states: under low-energy excitation, carriers relax through the fewer, deeper energy surface traps; under higher-energy excitation they populate shallower traps and a narrower band gap, emitting bluer." },
+        { "type": "p", "text": "The nitrogen and sulfur inherited from keratin are doing real work here. Both act as electron donors within a carbon matrix, and both raise the density of surface states. Remove them — synthesise from pure sucrose, say — and you get carbon dots that emit weakly and fairly uniformly. The feedstock is not incidental." },
+        { "type": "h2", "text": "Why the green argument holds up" },
+        { "type": "p", "text": "Two thirds of the hair industry by weight is waste, and keratolytic treatments are chemically aggressive enough that reclaimed hair is not a viable cosmetic feedstock. That waste is the input. The synthesis needs water, heat and a pressure vessel. No organic solvents, no protecting groups, no chromatography — the work-up is a centrifuge." },
+        { "type": "quote", "text": "A carbon dot is defined less by what it is than by the surface chemistry its synthesis leaves behind.", "cite": "Working principle" },
+        { "type": "h2", "text": "Caveats worth stating" },
+        { "type": "ul", "items": [
+          "Quantum yields are typically modest — 2–12% — and drop sharply once the dots are transferred into water",
+          "A broad emission is a liability for any application needing a narrow spectral window",
+          "Oxidative and photochemical stability remain limited relative to inorganic phosphors",
+          "Bacterial behaviour is heavily confounded by photothermal effects; distinguish them before claiming antimicrobial activity"
+        ] },
+        { "type": "p", "text": "The honest summary is that this is an elegant waste-to-material route with genuine sensing and photocatalytic potential, and that the fluorescence mechanism is still argued about in the literature. It is a good project precisely because it is not finished." }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "silver-nanocomposites-antimicrobial",
+      "title": "Silver Nanocomposites and How They Kill Bacteria",
+      "kicker": "Antimicrobial Chemistry",
+      "excerpt": "Silver nanoparticles kill bacteria by several mechanisms at once, which is why resistance is so rare. A look at the chemistry behind Ag@Zn composites and the honest limits of the antimicrobial claim.",
+      "date": "2026-02-18",
+      "readingTime": 8,
+      "featured": true,
+      "tags": ["Silver Nanoparticles", "Nanocomposites", "Antibacterial Activity", "ROS"],
+      "body": [
+        { "type": "p", "text": "Silver has been used against infection since the 1920s, long before anyone could describe why it worked. Only in the last twenty years has the mechanism become reasonably clear, and it is not the single story the textbooks used to tell." },
+        { "type": "h2", "text": "Synthesis: reduction controls everything downstream" },
+        { "type": "p", "text": "The standard route is the Lee–Meisel method: silver nitrate dissolved in water, sodium borohydride added dropwise with vigorous stirring. Borohydride is a strong reductant and the nucleation burst is fast, giving narrow, quasi-spherical particles typically in the 5–30 nm range." },
+        { "type": "p", "text": "Slowing the reaction changes everything. Lower reductant concentration, higher temperature, or substituting ascorbic acid for borohydride all produce larger, more crystalline particles. Size and shape then determine the surface plasmon resonance — the collective oscillation of conduction electrons at the particle surface that gives colloidal silver its characteristic yellow-brown colour and its optical extinction." },
+        { "type": "ul", "items": [
+          "Anisotropic particles (nanorods, nanocubes) split the resonance into two bands and shift it red",
+          "Larger particles scatter rather than absorb, and scatter more efficiently",
+          "Aggregation destroys the plasmon entirely and kills the optical response"
+        ] },
+        { "type": "h2", "text": "Three mechanisms, not one" },
+        { "type": "p", "text": "Antibacterial activity is usually attributed to silver ions, and Ag⁺ does bind strongly to thiol groups — it strips cysteine residues out of enzymes and cripples them. But three mechanisms operate in parallel:" },
+        { "type": "ol", "items": [
+          "Reactive oxygen species — the particle surface catalyses superoxide and hydroxyl radical generation under light, damaging DNA and proteins",
+          "Membrane disruption — silver accumulates at the negatively charged bacterial membrane and compromises its integrity",
+          "Ion release — dissolved Ag⁺ diffuses inward and denatures respiratory enzymes and ribosomal proteins"
+        ] },
+        { "type": "p", "text": "The multi-mechanism attack is the key to why bacterial resistance to silver is so rare compared to antibiotics: a single point mutation rarely defeats three independent mechanisms at once. There are documented resistant strains, mostly involving efflux pumps and silver-binding protein upregulation, and the trend direction is not encouraging for long-term reliance." },
+        { "type": "h2", "text": "Compositing with ZnO" },
+        { "type": "p", "text": "Pairing silver with zinc oxide adds a second, independent source of activity. ZnO is a wide-band-gap semiconductor with a band gap near 3.37 eV, so UV excitation generates electron–hole pairs. The holes oxidise water to hydroxyl radicals directly, without any metal centre involved. Silver supplies the plasmon and the ion-release route; ZnO supplies a photogenerated radical route." },
+        { "type": "p", "text": "In a composite these are complementary rather than merely additive. One concern with silver–ZnO hybrids is photocorrosion: silver catalyzes the reduction of photogenerated ZnO holes back to zinc metal, degrading the particles under illumination. It can be suppressed but rarely eliminated." },
+        { "type": "h2", "text": "Reading the zone of inhibition honestly" },
+        { "type": "ul", "items": [
+          "Disk diffusion is a poor assay for nanoparticles — the suspension does not diffuse through an agar gel the way a small molecule does",
+          "Results depend heavily on dispersant, surfactant and sonication, none of which are standardised",
+          "Dark controls are essential; activity that disappears without light is photochemistry, not the material",
+          "Report MIC in mg/L alongside the zone, never instead of it"
+        ] },
+        { "type": "p", "text": "Nanoparticle antimicrobial work is full of over-claimed results, mostly from assays that were never designed for suspended particles. Used carefully, these composites are genuinely interesting. Used casually, the literature is not trustworthy." }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "indole-chalcones-schiff-bases",
+      "title": "Indole-Based Chalcones and Schiff Bases",
+      "kicker": "Organic Synthesis",
+      "excerpt": "Two related scaffold families built on the same reaction chemistry. Why the α,β-unsaturated ketone and the imine behave so differently in the cell, and what the structure–activity data actually shows.",
+      "date": "2026-04-09",
+      "readingTime": 7,
+      "featured": false,
+      "tags": ["Chalcones", "Schiff Bases", "Indole", "Medicinal Chemistry"],
+      "body": [
+        { "type": "p", "text": "Chalcones are α,β-unsaturated ketones: two aryl rings joined by a three-carbon enone. They are among the most heavily studied scaffold classes in medicinal chemistry, and much of that interest comes from a single well-understood reactive centre." },
+        { "type": "h2", "text": "Claisen–Schmidt condensation" },
+        { "type": "p", "text": "The synthesis is one step and almost never fails. Acetophenone and an aromatic aldehyde are dissolved in ethanol and treated with dilute sodium hydroxide. The base deprotonates the methyl ketone, the enolate attacks the aldehyde, and β-hydroxyketone elimination gives the enone. Access to either starting material is broad, so the whole aryl substitution pattern on both rings can be scanned systematically." },
+        { "type": "p", "text": "That ease of derivatisation is exactly why chalcones recur in so many papers — and also why so many published series are small and undifferentiated. Generating forty analogues is easy; establishing which structural change actually caused the activity difference is the hard part." },
+        { "type": "h2", "text": "What the enone does" },
+        { "type": "p", "text": "The α,β-unsaturated carbonyl is a Michael acceptor. It undergoes conjugate addition with biological thiols, and glutathione is present in cells at millimolar concentrations. Covalent modification of cysteine residues is a credible mechanism for cytotoxicity, and it explains a recurring structure–activity pattern: compounds with a stronger electron-withdrawing group on the B-ring show higher activity, because that group increases the electrophilicity of the β-carbon." },
+        { "type": "p", "text": "That same electrophilicity is the liability. Many chalcones are PAINS-adjacent — promiscuous in biochemical assays, prone to aggregating and giving false positives. Any claim of activity needs orthogonal confirmation." },
+        { "type": "h2", "text": "Schiff bases: the same chemistry, opposite behaviour" },
+        { "type": "p", "text": "A Schiff base is an imine, formed by condensing a primary amine with a carbonyl and eliminating water. The C=N bond is polar but far less electrophilic than the chalcone enone — nitrogen donates its lone pair back into the bond, so it resists the Michael chemistry that makes chalcones interesting." },
+        { "type": "p", "text": "The imine is also hydrolytically reversible. At physiological pH, imines sit in equilibrium with the free amine and carbonyl, which is why Schiff bases often act as prodrugs: the intact imine crosses the membrane, then hydrolyses intracellularly to release the parent amine." },
+        { "type": "ul", "items": [
+          "Chalcone — α,β-unsaturated ketone, electrophilic at the β-carbon, covalent thiol reactivity",
+          "Schiff base — imine, weakly electrophilic, hydrolytically reversible, membrane-permeable",
+          "Indole substitution adds a hydrogen-bond donor and a well-established hydrophobic binding surface"
+        ] },
+        { "type": "h2", "text": "What the indole contributes" },
+        { "type": "p", "text": "Indole is one of the most prevalent bicyclic heterocycles in approved drugs, largely because it donates a single hydrogen bond from the N–H and presents a flat aromatic surface suited to π-stacking. Substituting at C-3 is the most useful single modification, since that position is both reactive in electrophilic substitution and tolerant of a wide range of groups." },
+        { "type": "quote", "text": "Both scaffold families are one reaction away from each other. The difference in cell behaviour comes almost entirely from how much each one wants to react with what is already there.", "cite": "On thiol reactivity" },
+        { "type": "p", "text": "The honest summary: these are well-precedented, synthetically accessible scaffolds where real activity is achievable, and where the literature's enthusiasm has outpaced its methodological rigour considerably." }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "hplc-pharmaceutical-quality-control",
+      "title": "HPLC in Pharmaceutical Quality Control",
+      "kicker": "Analytical Chemistry",
+      "excerpt": "A reversed-phase HPLC method is a small, complete argument about purity. What system suitability, ICH validation parameters, and the failure modes actually tell you about a batch.",
+      "date": "2026-05-21",
+      "readingTime": 9,
+      "featured": true,
+      "tags": ["HPLC", "Quality Control", "ICH Q2", "Analytical Chemistry"],
+      "body": [
+        { "type": "p", "text": "In pharmaceutical QC, HPLC is the workhorse. Almost every small molecule has a stability-indicating reversed-phase method, and the method is the thing that stands between a batch and release. It is also, unusually for an analytical technique, fully specified by regulation." },
+        { "type": "h2", "text": "What the chromatogram is claiming" },
+        { "type": "p", "text": "A validated stability-indicating method separates the active ingredient from every degradant and excipient, resolves them adequately, and gives a peak area response proportional to concentration over the range of interest. Four numbers in the chromatogram carry most of that argument." },
+        { "type": "ul", "items": [
+          "Theoretical plates (N) — column efficiency; below ~2000 the peaks are too broad for reliable integration",
+          "Resolution (Rs) — separation between the analyte peak and its nearest neighbour; >1.5 is adequate, >2.0 comfortable",
+          "Tail factor (T) — peak symmetry; <2.0 avoids integration bias, and asymmetric peaks are usually a column or buffer problem",
+          "Retention time (tR) — identity and reproducibility across runs"
+        ] },
+        { "type": "h2", "text": "The ICH Q2(R2) parameters" },
+        { "type": "p", "text": "Validation is not a formality. Each parameter answers a specific question about whether the method could produce a wrong number and fail to tell you." },
+        { "type": "ol", "items": [
+          "Specificity — does the method distinguish the analyte from degradants and excipients? Proved by spiking, not assumed",
+          "Linearity — response proportional to concentration across the range; r² ≥ 0.995 over at least five levels",
+          "Accuracy — recovery of spiked samples, conventionally 98–102% for assay",
+          "Precision — repeatability, intermediate precision and reproducibility; RSD below 2% for a well-behaved assay",
+          "Limit of detection and quantitation — 3.3σ/S and 10σ/S, or by signal-to-noise of 3:1 and 10:1",
+          "Robustness — does the result survive small deliberate changes to flow rate, temperature, pH and mobile phase composition"
+        ] },
+        { "type": "p", "text": "Robustness is the one most often skipped and the one that predicts real-world trouble. A method sitting exactly on a buffer pKa boundary will drift on a Tuesday when the lab temperature moves." },
+        { "type": "h2", "text": "Failure modes worth recognising" },
+        { "type": "p", "text": "Most 'instrument error' is actually a method or column problem wearing a different name:" },
+        { "type": "ul", "items": [
+          "Tailing peaks — column exhausted, endfitting voided, buffer pH too close to the analyte pKa",
+          "Retention drift across the sequence — buffer evaporation; fresh buffer daily and cap the reservoir",
+          "Ghost peaks — contaminated solvent or a contaminated needle wash; suspect these first",
+          "Baseline noise — mobile phase not adequately degassed, or UV detection at a wavelength where the solvent absorbs",
+          "Area drift — injector autosampler leak, or thermal instability in the sample compartment"
+        ] },
+        { "type": "h2", "text": "A note on the UV detector" },
+        { "type": "p", "text": "Detection at 254 nm is conventional because many aromatic chromophores absorb there, but it is a poor choice for anything without a conjugated aromatic system — it is nearly blind to saturated analogues. Where the analyte permits, 210–220 nm gives far better sensitivity at the cost of stronger solvent and impurity absorbance." },
+        { "type": "quote", "text": "A validated method is not one that always gives the right number. It is one whose failures announce themselves.", "cite": "On system suitability" },
+        { "type": "p", "text": "The daily system suitability test is the mechanism by which a method announces its own failure before a result is reported. It is the cheapest quality control in the laboratory and the one most often treated as a formality to be clicked through." }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "molecular-docking-practical-workflow",
+      "title": "Molecular Docking Without the Hype",
+      "kicker": "Computational Chemistry",
+      "excerpt": "Docking scores are cheap to generate and easy to over-interpret. A defensible AutoDock Vina or MOE workflow, the validation step that matters, and what a binding energy does not tell you.",
+      "date": "2026-07-02",
+      "readingTime": 8,
+      "featured": false,
+      "tags": ["Molecular Docking", "AutoDock Vina", "MOE", "Drug Discovery"],
+      "body": [
+        { "type": "p", "text": "Docking will give you a ranked list of poses and a number in kcal/mol within minutes. That speed and simplicity is exactly why it gets over-interpreted — a score is easy to produce and easy to mistake for evidence." },
+        { "type": "h2", "text": "A defensible workflow" },
+        { "type": "p", "text": "Preparation is where most studies go wrong, and it is the least glamorous part." },
+        { "type": "ol", "items": [
+          "Protein preparation — remove crystallographic waters beyond the first shell, add polar hydrogens, assign protonation states at the working pH, assign Gasteiger or force-field charges",
+          "Ligand preparation — build or retrieve a 3D structure, add hydrogens, minimise; generate all relevant protonation and tautomeric states, not just the one your drawing tool produced",
+          "Box definition — centre on the known or putative binding site and size it to let the ligand rotate freely; an undersized box guarantees a bad score",
+          "Docking — run multiple exhaustiveness levels and retain the top-scoring pose from each of ten runs",
+          "Validation — the step people skip"
+        ] },
+        { "type": "h2", "text": "Redocking is the step that matters" },
+        { "type": "p", "text": "Remove the bound ligand from a structure where you know the answer, dock it back, and check whether the method reproduces the crystallographic pose. The standard acceptance criterion is a heavy-atom RMSD below 2.0 Å." },
+        { "type": "p", "text": "If redocking fails, the scoring function or the preparation protocol is not valid for this target, and no amount of downstream analysis will rescue it. This single test separates a computational study from a guess, and it costs an hour." },
+        { "type": "h2", "text": "What the scoring functions are" },
+        { "type": "ul", "items": [
+          "AutoDock Vina uses an empirical scoring function combining steric, hydrophobic, hydrogen-bond and rotatable-bond terms, with weights fitted to PDBbind",
+          "MOE offers a suite including force-field and consensus approaches, with more control over flexible residues and explicit solvent in some modes",
+          "Both rank poses approximately. Neither is calibrated to predict experimental affinity in kcal/mol",
+          "Values are internally consistent within a target and protocol — never compare scores across different targets"
+        ] },
+        { "type": "p", "text": "That last point is the most common error in the literature: ranking compounds by score against a single target is reasonable; quoting −9.4 kcal/mol as if it were an experimentally meaningful binding constant is not." },
+        { "type": "h2", "text": "Known limitations" },
+        { "type": "ul", "items": [
+          "Most scoring functions treat the receptor as rigid; induced fit and allostery are invisible",
+          "Explicit water molecules are usually omitted, although mediating waters are frequently essential to binding",
+          "Metalloproteins are poorly handled — metal coordination is not modelled by most generic functions",
+          "Membrane proteins and highly flexible systems are outside the reliable range entirely",
+          "Score ranking correlates poorly with activity in the 2–3 kcal/mol band where most drug-like ligands live"
+        ] },
+        { "type": "quote", "text": "Docking is a hypothesis generator. It is very good at that and has no opinion whatsoever about whether the hypothesis is true.", "cite": "Working principle" },
+        { "type": "p", "text": "Used with a redocking check, physicochemical filtering and an appropriate ADMET screen, docking narrows a library from thousands to a few dozen worth synthesising. Used without them, it produces a confident number that means very little." }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "metal-organic-frameworks",
+      "title": "Metal–Organic Frameworks and the Reticular Idea",
+      "kicker": "Materials Chemistry",
+      "excerpt": "MOFs are crystalline, permanently porous, and built by choosing nodes and linkers like chemistry. Why that design logic is so powerful, and what it will take to make these materials practical.",
+      "date": "2026-08-14",
+      "readingTime": 8,
+      "featured": false,
+      "tags": ["Metal-Organic Frameworks", "Materials Chemistry", "Catalysis", "Gas Storage"],
+      "body": [
+        { "type": "p", "text": "A metal–organic framework is built from metal ions or clusters connected by rigid organic linkers into a network that is crystalline and permanently porous. The crystallinity is the unusual part — most porous materials are amorphous, and an amorphous solid cannot be characterised well enough to predict how changing a linker will change the pore." },
+        { "type": "h2", "text": "Reticular synthesis" },
+        { "type": "p", "text": "The framework extends in two or three dimensions by connectivity: a tetratopic linker with four binding sites meeting a square-planar metal node produces a square-grid topology. Because both building blocks are symmetric and the bonds are directional, the geometry is predictable, and predictable means designable." },
+        { "type": "p", "text": "This is the reticular chemistry idea, and it is genuinely powerful. The same reticular synthesis logic that gave chemists the LOCK. (linker) metal node cages has since been extended to dozens of topologies." },
+        { "type": "h2", "text": "What the choices control" },
+        { "type": "ul", "items": [
+          "Linker length directly sets pore size — swapping terephthalic acid for naphthalene dicarboxylate widens the cavity predictably",
+          "Linker functionality controls adsorption selectivity; attaching amine groups gives strong CO₂ and H₂O uptake",
+          "Metal identity sets cluster geometry, redox behaviour and, critically, hydrolytic stability",
+          "Node connectivity determines topology, which determines whether pores interpenetrate"
+        ] },
+        { "type": "h2", "text": "Applications" },
+        { "type": "p", "text": "The applications split fairly cleanly into what works now and what might work later." },
+        { "type": "p", "text": "Catalysis is the most mature. Metal nodes act as isolated active sites — a genuinely useful property, since homogeneous catalysis uses molecular metal complexes and the challenge has always been immobilising them without changing their behaviour. Frameworks do it by construction." },
+        { "type": "p", "text": "Sensing leverages luminescence and adsorption selectivity: a framework can be tuned to bind a target ion and report the binding through an optical change. Gas separation is well advanced — MOFs dominate the academic literature on CO₂ capture because the tunability genuinely outperforms porous carbons and zeolites." },
+        { "type": "h2", "text": "The problems" },
+        { "type": "p", "text": "Stability is the recurring obstacle. Many MOFs are hydrolysed by the moisture present in ordinary air. The carboxylate bond to a metal centre is kinetically labile, and water attacks it. The durable families solve this by moving to more strongly coordinating nodes:" },
+        { "type": "ul", "items": [
+          "Zr₆O₄(OH)₄ clusters (UiO family) — oxo/hydroxo bridges make Zr–O bonding exceptionally robust",
+          "Trivalent cations such as Al³⁺ and Cr³⁺ — higher charge density than divalent metals",
+          "MIL-101 and its derivatives — demonstrated in catalysis at scale, though synthesis cost is prohibitive",
+          "Defect engineering — deliberately missing linkers can actually improve performance by adding adsorption sites"
+        ] },
+        { "type": "p", "text": "The second problem is synthesis cost. Most MOFs need organic solvents, elevated temperatures and often several days. Solvothermal routes using dimethylformamide are the standard, and DMF is expensive, toxic, and difficult to remove from the product. Green synthesis routes exist but generally do not yet match the crystallinity of the conventional ones." },
+        { "type": "quote", "text": "The reticular idea lets you predict the pore before you synthesise the material. That is the whole point, and the reason MOF chemistry is one of the few genuinely predictive fields in materials science.", "cite": "On design" },
+        { "type": "p", "text": "For a computational chemist, MOFs are unusually tractable: periodic DFT on a crystalline framework is a well-defined calculation with no boundary conditions to worry about, and adsorption energies are directly comparable to experiment. That combination of design predictability and clean theory makes the field a natural bridge between synthesis and computation." }
+      ]
+    }
+  ]
+}
