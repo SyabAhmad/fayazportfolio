@@ -1,8 +1,26 @@
 {
   "experiences": [
     {
+      "id": 5,
+      "period": "2026 – Present",
+      "title": "Doctoral Researcher",
+      "organization": "Anhui Normal University, School of Chemistry and Materials Science",
+      "type": "research",
+      "description": [
+        "Doctoral research within the School of Chemistry and Materials Science, Anhui Normal University",
+        "Working across synthetic chemistry and functional materials",
+        "Building on prior M.Phil work in organic synthesis, nanomaterials and computational modelling"
+      ],
+      "tags": [
+        "Synthetic Chemistry",
+        "Functional Materials",
+        "Organic Synthesis",
+        "Nanomaterials"
+      ]
+    },
+    {
       "id": 1,
-      "period": "2024 – Present",
+      "period": "2024 – 2026",
       "title": "Quality Control Analyst & R&D",
       "organization": "Shazeb Pharmaceutical Industry Pvt. Ltd",
       "type": "industry",

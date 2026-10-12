@@ -28,8 +28,8 @@ const Experience = () => {
           </p>
           <h2 className="title-section">Research, industry and teaching</h2>
           <p className="lede">
-            Four roles across pharmaceutical quality control, nanomaterials
-            research and chemistry teaching, most recent first.
+            Five positions across doctoral research, pharmaceutical quality
+            control, nanomaterials and chemistry teaching, most recent first.
           </p>
         </div>
 
