@@ -51,6 +51,9 @@ const Education = () => {
               <p className="mt-1.5 font-sans text-[0.8125rem] text-fg-faint">
                 {edu.institution}
               </p>
+              {edu.school && (
+                <p className="font-sans text-[0.8125rem] text-fg-faint">{edu.school}</p>
+              )}
 
               <div className="mt-6 border-l-2 border-accent-line pl-4">
                 <p className="font-sans text-[0.6875rem] uppercase tracking-[0.12em] text-fg-faint">

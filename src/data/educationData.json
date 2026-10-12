@@ -2,6 +2,20 @@
   "education": [
     {
       "id": 1,
+      "degree": "Doctor of Philosophy (PhD), Chemistry",
+      "institution": "Anhui Normal University, China",
+      "school": "School of Chemistry and Materials Science",
+      "period": "2026 – Present",
+      "gpa": "In progress",
+      "thesis": "Doctoral research in synthetic chemistry and functional materials",
+      "highlights": [
+        "Research focus on synthetic chemistry and advanced materials",
+        "Supervision and coursework within the School of Chemistry and Materials Science",
+        "Building on prior M.Phil work in organic synthesis and nanomaterials"
+      ]
+    },
+    {
+      "id": 2,
       "degree": "Master of Science: Chemistry",
       "institution": "Abdul Wali Khan University Mardan, Pakistan",
       "period": "2023 – 2025",

@@ -1,10 +1,13 @@
 {
   "personal": {
     "name": "Sayyad Fayaz Ahmad Shah",
-    "title": "Chemistry Researcher & Quality Control Analyst",
+    "title": "Doctoral Researcher",
+    "affiliation": "School of Chemistry and Materials Science, Anhui Normal University",
+    "institution": "Anhui Normal University",
+    "country": "China",
     "tagline": "Transforming Molecules into Innovations",
-    "location": "Swat, Pakistan",
-    "bio": "An aspiring chemistry researcher passionate about advancing sustainable and computational chemistry. My expertise lies in the synthesis of diverse compounds, including organic molecules and nanomaterials, as well as utilizing computational tools to model and analyze chemical interactions."
+    "location": "Anhui, China",
+    "bio": "Doctoral researcher at the School of Chemistry and Materials Science, Anhui Normal University, working across synthetic chemistry and functional materials. Previously an M.Phil chemist with industrial quality control experience in pharmaceutical analysis, I bring bench work, materials synthesis and computational modelling into the same research programme."
   },
   "contact": {
     "phones": ["+92-348-1958216", "+92-308-9480944"],

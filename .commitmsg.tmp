@@ -1,0 +1,21 @@
+Update profile for doctoral studies at Anhui Normal University
+
+The site was factually wrong: it described him as "open to fully funded PhD
+positions" and listed Swat, Pakistan as his location, when he is now a doctoral
+student at the School of Chemistry and Materials Science, Anhui Normal
+University, China.
+
+- Title is now "Doctoral Researcher"; the contact sidebar lists the affiliation
+  and replaces "currently seeking a PhD" with research collaborations.
+- Education gains a PhD entry (Anhui Normal University, School of Chemistry and
+  Materials Science) above the M.Phil. Education rows now render an optional
+  "school" line for faculty-level detail.
+- Hero kicker, location line and photo caption updated. The caption described
+  the photo as being taken at a former employer, which is no longer how he wants
+  to be presented.
+- contactData.json gains institution / affiliation / country fields, so the
+  header, byline, author box and contact sidebar all read from one place.
+- SEO metadata and JSON-LD updated, including a worksFor entry for the school and
+  dropping the Pakistan address.
+
+Build and eslint clean.

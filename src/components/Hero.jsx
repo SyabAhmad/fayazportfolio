@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <section id="top" className="pt-32 pb-16 sm:pt-40">
       <div className="sheet">
-        <p className="kicker">Chemistry Researcher &amp; Quality Control Analyst</p>
+        <p className="kicker">{personal.title}</p>
 
         <h1 className="title-display mt-7">
           {NAME_PARTS.slice(0, NAME_SPLIT).join(" ")}
@@ -32,7 +32,7 @@ const Hero = () => {
             {personal.location}
           </span>
           <span aria-hidden="true" className="text-rule-strong">/</span>
-          <span>Organic synthesis · Nanomaterials · Computational chemistry</span>
+          <span>Organic synthesis · Nanomaterials · Materials</span>
         </p>
 
         <div className="mt-12 grid gap-14 lg:grid-cols-[1fr_20rem] lg:gap-20">
@@ -78,7 +78,7 @@ const Hero = () => {
                 className="aspect-[4/5] w-full object-cover object-[center_18%]"
               />
               <figcaption className="border-t border-rule-soft px-4 py-3 font-sans text-[0.6875rem] leading-relaxed text-fg-faint">
-                Analytical laboratory, Shazeb Pharmaceutical Industries
+                Doctoral researcher, Anhui Normal University
               </figcaption>
             </figure>
           </div>

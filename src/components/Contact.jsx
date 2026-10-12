@@ -106,19 +106,30 @@ const Contact = () => {
             <p className="font-sans text-[0.6875rem] uppercase tracking-[0.12em] text-fg-faint">
               Based in
             </p>
-            <p className="mt-3 flex items-center gap-2 font-display text-[1.25rem] text-fg">
+            <p className="mt-3 flex items-center gap-2 font-display text-[1.25rem] leading-snug text-fg">
               <FaMapMarkerAlt aria-hidden="true" className="text-accent" />
               {personal.location}
             </p>
 
             <p className="mt-10 font-sans text-[0.6875rem] uppercase tracking-[0.12em] text-fg-faint">
-              Currently seeking
+              Affiliation
             </p>
             <p className="mt-3 font-display text-[1.25rem] leading-snug text-fg">
-              Fully funded PhD positions
+              {personal.institution}
             </p>
             <p className="mt-3 font-display text-[1rem] leading-relaxed text-fg-soft">
-              In medicinal, organic, materials or computational chemistry.
+              {personal.affiliation}
+            </p>
+
+            <p className="mt-10 font-sans text-[0.6875rem] uppercase tracking-[0.12em] text-fg-faint">
+              Open to
+            </p>
+            <p className="mt-3 font-display text-[1.25rem] leading-snug text-fg">
+              Research collaborations
+            </p>
+            <p className="mt-3 font-display text-[1rem] leading-relaxed text-fg-soft">
+              Joint projects, co-authorship and visiting exchanges in synthesis,
+              materials and computation.
             </p>
 
             <a
